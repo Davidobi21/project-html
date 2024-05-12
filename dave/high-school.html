@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mroven||high-school</title>
+<link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="./css/responsive.css">
+<script src="./java/js.js"></script>
+<script src="./java/all.min.js"></script>
+<script src="./java/sweetalert.min.js"></script>
+</head>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="logo.png" alt="Morven">
+                </a>
+            </div>
+            <nav>
+                <div class="nav-toggle" onclick="toggleNav()">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">levels</a>
+                        <div class="dropdown-content">
+                            <a href="./pre-school.html">Pre-school</a>
+                            <a href="./middle-school.html">Middle-school</a>
+                            <a href="./junior-school.html">Junior-school</a>
+                            <a href="./high-school.html">High-school</a>
+                            <a href="./post.html">Post-Graduate Diploma</a>
+                        </div>
+                    </li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav> 
+        </div>
+    </header>
+<body>
+    <button onclick="scrollToTop()" id="scrollToTopButton" title="Go to top">^</button>
+    <section class="high-school">
+        <div class="high-school-text">
+            <h1>High-school</h1>
+        </div>
+    </section>
+    <section class="course-details">
+        <div class="contain">
+            <div class="course-info">
+                <div class="info">
+                    <p>High-School</p>
+                </div>
+                <div class="interested">
+                    <button class=" button enroll-btn">ENROLL NOW</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <div id="enrollFormPopup" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Enroll Now</h2>
+            <form id="enrollForm">
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" required>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <div class="form-group">
+                    <label for="file">Testimonial & Results:</label>
+                    <input type="file" id="file" name="file">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <section class="about-course">
+        <div class="container">
+            <h2>About High-School</h2>
+            <p>Pre-School is a general-purpose class used to build just about child. Pre-School is key for backbone for child development, data analysis, artificial intelligence and scientific computing, all of which are key for pursuing IT careers. This is an introductory course on Programming Fundamentals which we go from basic to advanced level. Its aim is to introduce basic concepts of Programming with Python is used to implement programming fundamentals. Understand the key hardware (HW) components in a modern computer system and how software is mapped to the HW.</p>
+            <p>The design of the curriculum is path-breaking and includes several aspects, each one designed to build a strong foundation for the domain, and help the student gain an ability for constant learning, not just for his first job but for life.</p>
+        </div>
+    </section>
+    <section class="featuring-section">
+        <div class="container">
+                <h2>Featuring</h2>
+            <div class="row">
+                <div class="item">
+                    <i class="fas fa-laptop fa-3x"></i>
+                    <p>Project-based learning helps the student apply his knowledge into projects that simulate real-world situations.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-magnifying-glass fa-3x"></i>
+                    <p>Objective-driven sessions constantly keep the student and his mentor focused on the immediate task at hand while constantly ascending a well-defined spiral of learning.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-language fa-3x"></i>
+                    <p>A telescopic laying out of the three Terms in each Career Series Program provide a clear line of sight and a pursuit of a destination that clearly differentiates from the competition.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="item">
+                    <i class="fas fa-microchip fa-3x"></i>
+                    <p>Guided Practice offers every student an opportunity to polish his learning at a pace that is comfortable for him. In a stress-free environment, Guided Practice enables the learner to also go beyond the classroom inputs and build more practice hours under his belt – something that his potential employers will find valuable and different.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-message fa-3x"></i>
+                    <p>Guided Practice offers every student an opportunity to polish his learning at a pace that is comfortable for him. In a stress-free environment, Guided Practice enables the learner to also go beyond the classroom inputs and build more practice hours under his belt – something that his potential employers will find valuable and different.</p>
+                </div>
+                <div class="item">
+                    <i class="fas fa-medal fa-3x"></i>
+                    <p>Guided Practice offers every student an opportunity to polish his learning at a pace that is comfortable for him. In a stress-free environment, Guided Practice enables the learner to also go beyond the classroom inputs and build more practice hours under his belt – something that his potential employers will find valuable and different.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="course-content-section">
+        <div class="container">
+            <h2>Course Content</h2>
+            <div class="course-list">
+                <div class="course-column">
+                    <ul>
+                        <li>Introduction To Programming Using Python.</li>
+                        <li>Variables, Statements, Operators and User Input.</li>
+                        <li>Conditional Constructs & Functions.</li>
+                        <li>Flow of Control & String Data Type</li>
+                        <li>Working with Files and Exceptions</li>
+                        <li>List and Dictionaries, Tuples</li>
+                    </ul>
+                </div>
+                <div class="course-column">
+                    <ul>
+                        <li>Networking in Python</li>
+                        <li>Web Scraping and Using Web Services</li>
+                        <li>JSON and SOA API Programming</li>
+                        <li>DataBase Connectivity(SQLITE/MYSQL)</li>
+                        <li>Visualizing Data in Python</li>
+                        <li>Automating Task and Using Command Line Argument</li>
+                        <li>Graphical User Interface(GUI) Using Pyqt5</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="certificate-section">
+        <h2>You may also like</h2>
+        <div class="containe4">
+            <div class="card">
+                <img src="./images/kings-schools-junor-high-school-hero-image.jpg" alt="Microsoft Office Certificate">
+                <div class="card-content">
+                    <h3>JUNIOR-SCHOOL</h3>
+                    <ul>
+                        <li>IT Fundamental and Computing</li>
+                        <li>Network Essentials</li>
+                        <li>Microsoft Word</li>
+                        <li>Microsoft Excel</li>
+                        <li>Microsoft PowerPoint</li>
+                        <li>Microsoft Outlook</li>
+                    </ul>
+                    <a href="./junior-school.html" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/IMG_0733-scaled.jpg" alt="Hardware and Networking Certificate">
+                <div class="card-content">
+                    <h3>MIDDLE-SCHOOL</h3>
+                    <ul>
+                        <li>Installing windows PC</li>
+                        <li>Configuring windows PC</li>
+                        <li>Troubleshooting windows PC</li>
+                        <li>Protocols and internetworking standards</li>
+                        <li>Enterprise business desktop development</li>
+                        <li>Understand basic troubleshooting methodology</li>
+                    </ul>
+                    <a href="./middle-school.html" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./images/woman-writing-in-a-notebook-pen-in-hand-low-angl-2023-11-27-05-11-14-utc.jpg" alt="Hardware and Networking Certificate">
+                <div class="card-content">
+                    <h3>PRE-SCHOOL</h3>
+                    <ul>
+                        <li>Installing windows PC</li>
+                        <li>Configuring windows PC</li>
+                        <li>Troubleshooting windows PC</li>
+                        <li>Protocols and internetworking standards</li>
+                        <li>Enterprise business desktop development</li>
+                        <li>Understand basic troubleshooting methodology</li>
+                    </ul>
+                    <a href="./pre-school.html" class="btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<footer class="footer">
+    <div class="container-6">
+        <div class="contact-info">
+            <p>Contact Information: 09133316642</p>
+            <p>Email: obiorahdave@gmail.com</p>
+            <p>Location: FORESTS HILL RD, ABUJA, ON M4V 2P9</p>
+        </div>
+        <div class="rights-reserved">
+            <p>&copy; 2024 All rights reserved</p>
+            <p>Last updated: April 11, 2024</p>
+        </div>
+    </div>
+</footer>
+</html>
